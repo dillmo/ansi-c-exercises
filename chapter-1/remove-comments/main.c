@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-enum booleans { FALSE, TRUE };
 enum states { NORMAL, COMMENT, SINGLE_QUOTE, DOUBLE_QUOTE, ESCAPED_SINGLE,
               ESCAPED_DOUBLE, SLASHED, UNSLASHED };
 
