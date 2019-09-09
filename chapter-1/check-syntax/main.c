@@ -68,6 +68,8 @@ int main() {
             case UNSLASHED:
                 if (c == '/') {
                     state = NORMAL;
+                } else {
+                    state = COMMENT;
                 }
                 break;
         }
